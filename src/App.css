@@ -1,0 +1,70 @@
+:root{
+    --shadowbox-color: rgb(15, 108, 131);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background: linear-gradient(rgb(40, 145, 206), rgb(147, 202, 233));
+}
+
+h1{
+   text-align: center;
+   color: rgb(47, 94, 247);
+   font-family: 'Pacifico', cursive;
+   white-space: nowrap;
+}
+
+.container{
+    display: flex;
+}
+
+.UN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    border: 2px solid rgb(71, 216, 252);
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 27%;
+    height: 2rem;
+    background-color: rgb(255, 247, 247);
+    box-shadow: 2px 3px 8px  var(--shadowbox-color), 0px 3px 18px var(--shadowbox-color);
+}
+
+.Goals{
+    border: 2px solid rgb(71, 216, 252);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(255, 247, 247);
+    box-shadow: 2px 3px 8px  var(--shadowbox-color), 0px 3px 18px var(--shadowbox-color);
+}
+
+.SubGoals{
+    border: 2px solid rgb(71, 216, 252);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(255, 247, 247);
+    height: 60%;
+    box-shadow: 2px 3px 8px  var(--shadowbox-color), 0px 3px 18px var(--shadowbox-color);
+}
+
+.SubTitle{
+    border: 2px solid rgb(71, 216, 252);
+    border-radius: 5px;
+    width: 25%;
+    margin: 1rem auto 2rem auto;
+    box-shadow: 2px 3px 8px  var(--shadowbox-color), 0px 3px 18px var(--shadowbox-color);
+    background-color: rgb(255, 247, 247);
+}
+
+.SubGoalsTitle{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
